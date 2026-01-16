@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+require("dotenv").config();
 const app = express();
 const matchRoute = require("./routes/match");
 
@@ -17,8 +18,8 @@ mongoose
       console.log("Listening at port 3000");
     });
   })
-  .catch(() => {
-    console.log("Connection Failed!");
+  .catch((err) => {
+    console.log("Connection Failed: ", err);
   });
 
 app.get("/", (req, res) => {
