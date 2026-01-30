@@ -23,5 +23,5 @@ mongoose
   });
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Matches API");
+  res.send("Matches API at your service");
 });
