@@ -2,6 +2,14 @@
   "name": "matchesserver",
   "version": "1.0.0",
   "description": "server",
+  "homepage": "https://github.com/Serch-Co/sport-match-server#readme",
+  "bugs": {
+    "url": "https://github.com/Serch-Co/sport-match-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serch-Co/sport-match-server.git"
+  },
   "license": "ISC",
   "author": "Luis Pichardo",
   "type": "commonjs",
