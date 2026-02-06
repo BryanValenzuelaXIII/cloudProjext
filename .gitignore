@@ -4,3 +4,4 @@ sport-match-server-key.pem
 node_modules
 
 
+.DS_Store
